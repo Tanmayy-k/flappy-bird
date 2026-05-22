@@ -1,4 +1,4 @@
-# Flappy Bird — Java Swing Arcade Game
+🐦 Flappy Bird — Java Swing Arcade Game
 
 A polished desktop arcade game built using Java Swing and object-oriented programming principles.
 This project recreates the classic Flappy Bird gameplay experience with smooth physics, responsive controls, dynamic difficulty scaling, sound effects, and persistent high-score tracking.
@@ -7,7 +7,7 @@ The game was designed with clean architecture and modular Java classes to demons
 
 ---
 
-# Features
+🎮 Features
 
 * Smooth bird movement with gravity and responsive jump mechanics
 * Dynamic pipe generation with progressive difficulty scaling
@@ -19,87 +19,80 @@ The game was designed with clean architecture and modular Java classes to demons
 * Efficient pipe cleanup and collision handling for smoother performance
 
 ---
+🧠 Core Concepts Demonstrated
+Object-Oriented Programming (OOP)
+Event-driven programming
+Collision detection
+Real-time rendering
+Java Swing GUI development
+File handling & persistence
+Timer-based game loop handling
+Dynamic difficulty scaling
+🛠️ Tech Stack
+Category	Technology
+Language	Java
+GUI Framework	Java Swing
+Graphics	AWT (java.awt)
+Audio	javax.sound.sampled
+Image Handling	ImageIO
+Persistence	File I/O
+Architecture	OOP-based modular design
 
-# Controls
 
-| Key   | Action                      |
-| ----- | --------------------------- |
-| SPACE | Start game / Jump / Restart |
-| P     | Pause or Resume the game    |
-
----
-
-# Technologies Used
-
-* Java 17+
-* Java Swing (`javax.swing`)
-* AWT Graphics (`java.awt`)
-* `javax.imageio.ImageIO`
-* `javax.sound.sampled`
-* File I/O for local score persistence
-* Object-Oriented Programming (OOP)
-
----
-
-# Core Concepts Demonstrated
-
-* Real-time game loop handling
-* Event-driven programming
-* Collision detection
-* GUI rendering with Java Swing
-* Object-oriented design
-* Physics simulation using gravity and velocity
-* File handling and local data persistence
-
----
-
-# Project Structure
-
-```bash
-Main.java               # Application entry point and window setup
-GamePanel.java          # Main game loop, rendering, input handling
-Bird.java               # Bird movement, physics, animation, collision
-Pipe.java               # Pipe spawning, movement, cleanup logic
-SoundManager.java       # Sound effects management
-ScoreManager.java       # Current score and high-score persistence
-
-assets/
+📁 Project Structure
+flappy-bird-java/
 │
-├── flappybird.png
-├── flappybirdbg.png
-├── toppipe.png
-└── bottompipe.png
+├── Main.java                # Application entry point
+├── GamePanel.java           # Main game loop & rendering
+├── Bird.java                # Bird physics and movement
+├── Pipe.java                # Pipe spawning & collision
+├── SoundManager.java        # Audio handling
+├── ScoreManager.java        # Score & high-score persistence
+│
+├── assets/
+│   ├── flappybird.png
+│   ├── flappybirdbg.png
+│   ├── toppipe.png
+│   └── bottompipe.png
+│
+└── bestscore.dat            # Auto-generated high score file
 
-bestscore.dat           # Auto-generated high score file
-```
 
----
+⚙️ Gameplay Mechanics
+SPACE Key Press
+↓
+Apply Upward Velocity
+↓
+Gravity Pulls Bird Down
+↓
+Pipes Move Horizontally
+↓
+Collision Detection Check
+↓
+├── SAFE → Continue Game
+└── COLLISION
+     ↓
+  Game Over Screen
+     ↓
+Save High Score
 
-# How to Run
 
-## Using Terminal
+🎯 Controls
+Key	Action
+SPACE	Start / Jump / Restart
+P	Pause or Resume
 
-Compile the project:
 
-```bash
+▶️ How to Run
+Compile
 javac Main.java GamePanel.java Bird.java Pipe.java SoundManager.java ScoreManager.java
-```
-
-Run the game:
-
-```bash
+Run
 java Main
-```
 
----
+👨‍💻 Developer
+Tanmay Kshirsagar
 
-## Using VS Code
 
-1. Open the project folder in VS Code
-2. Install the Java Extension Pack
-3. Run `Main.java` using the Run button
----
 
-# About
-
-Flappy Bird is a Java-based desktop arcade game project focused on demonstrating clean OOP structure, real-time rendering, GUI programming, and gameplay mechanics using Java Swing.
+🚀 About
+A Java-based arcade game project focused on demonstrating clean OOP architecture, GUI development, game loop mechanics, and interactive desktop application design using Java Swing.
