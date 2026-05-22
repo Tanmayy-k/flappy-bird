@@ -98,31 +98,6 @@ java Main
 1. Open the project folder in VS Code
 2. Install the Java Extension Pack
 3. Run `Main.java` using the Run button
-
----
-
-# Screenshots
-
-*Add gameplay screenshots here after uploading images to the repository.*
-
-Example:
-
-```md
-![Gameplay](screenshots/gameplay.png)
-```
-
----
-
-# Future Improvements
-
-* Animated bird sprite frames
-* Multiple themes and skins
-* Particle effects and smoother transitions
-* Difficulty selection menu
-* Better audio assets and music
-* Mouse/touch controls
-* Online leaderboard system
-
 ---
 
 # About
